@@ -1,0 +1,470 @@
+{
+  "schema": "pf1e-character-chronicle",
+  "version": 1,
+  "savedAt": "2026-05-15T00:00:00.000Z",
+  "info": {
+    "name": "Garrick Ironwill",
+    "charClass": "Fighter",
+    "level": 5,
+    "race": "Human",
+    "alignment": "NG",
+    "size": "Medium",
+    "deity": ""
+  },
+  "abil": {
+    "str": 21,
+    "dex": 14,
+    "con": 16,
+    "int": 9,
+    "wis": 8,
+    "cha": 14
+  },
+  "racMod": {
+    "str": 0,
+    "dex": 0,
+    "con": 0,
+    "int": 0,
+    "wis": 0,
+    "cha": 0
+  },
+  "tmpMod": {
+    "str": 0,
+    "dex": 0,
+    "con": 0,
+    "int": 0,
+    "wis": 0,
+    "cha": 0
+  },
+  "hp": {
+    "max": 54,
+    "cur": 54,
+    "temp": 0,
+    "nl": 0
+  },
+  "bab": 5,
+  "acC": {
+    "armor": 7,
+    "shield": 5,
+    "nat": 0,
+    "defl": 0,
+    "dodge": 1,
+    "misc": 0
+  },
+  "initMisc": 0,
+  "speed": 20,
+  "saves": {
+    "fBase": 4,
+    "rBase": 1,
+    "wBase": 1,
+    "fMisc": 0,
+    "rMisc": 0,
+    "wMisc": 0
+  },
+  "cmbMisc": 0,
+  "cmdMisc": 0,
+  "weapons": [
+    {
+      "id": 1,
+      "name": "Great Axe",
+      "type": "melee",
+      "dmg": "2d6",
+      "crit": "20/×3",
+      "atkM": 0,
+      "dmgM": 0,
+      "twoHanded": true,
+      "usePa": true,
+      "useDa": false
+    },
+    {
+      "id": 2,
+      "name": "Halberd",
+      "type": "melee",
+      "dmg": "1d10",
+      "crit": "20/×3",
+      "atkM": 0,
+      "dmgM": 0,
+      "twoHanded": true,
+      "usePa": true,
+      "useDa": false
+    },
+    {
+      "id": 3,
+      "name": "Light Crossbow",
+      "type": "ranged",
+      "dmg": "1d6",
+      "crit": "19-20/×2",
+      "atkM": 0,
+      "dmgM": 0,
+      "twoHanded": false,
+      "usePa": false,
+      "useDa": false
+    },
+    {
+      "id": 4,
+      "name": "Longsword",
+      "type": "melee",
+      "dmg": "1d8",
+      "crit": "19-20/×2",
+      "atkM": 0,
+      "dmgM": 0,
+      "twoHanded": false,
+      "usePa": true,
+      "useDa": false
+    }
+  ],
+  "skillData": {
+    "acrobatics": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "appraise": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "bluff": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "climb": {
+      "ranks": 3,
+      "cs": true,
+      "misc": 0
+    },
+    "craft_alch": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "craft_arm": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "craft_bow": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "craft_trap": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "craft_wpn": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "diplomacy": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "disableDevice": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "disguise": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "escapeArtist": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "fly": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "handleAnimal": {
+      "ranks": 0,
+      "cs": true,
+      "misc": 0
+    },
+    "heal": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "intimidate": {
+      "ranks": 3,
+      "cs": true,
+      "misc": 0
+    },
+    "kArcana": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "kDungeoneering": {
+      "ranks": 0,
+      "cs": true,
+      "misc": 0
+    },
+    "kEngineering": {
+      "ranks": 0,
+      "cs": true,
+      "misc": 0
+    },
+    "kGeography": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "kHistory": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "kLocal": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "kNature": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "kNobility": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "kPlanes": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "kReligion": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "linguistics": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "perception": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "perform_act": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "perform_sing": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "profession": {
+      "ranks": 0,
+      "cs": true,
+      "misc": 0
+    },
+    "ride": {
+      "ranks": 0,
+      "cs": true,
+      "misc": 0
+    },
+    "senseMotive": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "sleightOfHand": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "spellcraft": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "stealth": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    },
+    "survival": {
+      "ranks": 0,
+      "cs": true,
+      "misc": 0
+    },
+    "swim": {
+      "ranks": 4,
+      "cs": true,
+      "misc": 0
+    },
+    "useMagicDevice": {
+      "ranks": 0,
+      "cs": false,
+      "misc": 0
+    }
+  },
+  "featState": {
+    "powerAttack": {
+      "active": true,
+      "weaponName": ""
+    },
+    "cleave": {
+      "active": false,
+      "weaponName": ""
+    },
+    "greatCleave": {
+      "active": true,
+      "weaponName": ""
+    },
+    "weaponFocus": {
+      "active": true,
+      "weaponName": ""
+    },
+    "weaponSpec": {
+      "active": true,
+      "weaponName": "Longsword"
+    },
+    "greaterWeaponFocus": {
+      "active": false,
+      "weaponName": ""
+    },
+    "greaterWeaponSpec": {
+      "active": false,
+      "weaponName": ""
+    },
+    "pointBlankShot": {
+      "active": false,
+      "weaponName": ""
+    },
+    "deadlyAim": {
+      "active": false,
+      "weaponName": ""
+    },
+    "twoWeaponFighting": {
+      "active": false,
+      "weaponName": ""
+    },
+    "improvedInit": {
+      "active": false,
+      "weaponName": ""
+    },
+    "toughness": {
+      "active": true,
+      "weaponName": ""
+    },
+    "ironWill": {
+      "active": false,
+      "weaponName": ""
+    },
+    "lightningReflexes": {
+      "active": false,
+      "weaponName": ""
+    },
+    "greatFortitude": {
+      "active": false,
+      "weaponName": ""
+    },
+    "combatExpertise": {
+      "active": false,
+      "weaponName": ""
+    },
+    "dodge": {
+      "active": true,
+      "weaponName": ""
+    },
+    "improvedGrapple": {
+      "active": false,
+      "weaponName": ""
+    },
+    "improvedTrip": {
+      "active": false,
+      "weaponName": ""
+    },
+    "improvedDisarm": {
+      "active": false,
+      "weaponName": ""
+    }
+  },
+  "featNotes": [
+    {
+      "id": 1,
+      "name": "Weapon Focus",
+      "notes": "+1 attack"
+    },
+    {
+      "id": 2,
+      "name": "Power Attack / Furious Focus",
+      "notes": "-2 to hit, +4 damage (2H); no attack penalty on first 2H attack (Furious Focus)"
+    },
+    {
+      "id": 3,
+      "name": "Dodge",
+      "notes": "+1 AC"
+    },
+    {
+      "id": 4,
+      "name": "Shield Focus",
+      "notes": "+1 AC (shield bonus)"
+    },
+    {
+      "id": 5,
+      "name": "Weapon Specialization (Longsword)",
+      "notes": "+2 damage"
+    },
+    {
+      "id": 6,
+      "name": "Great Cleave",
+      "notes": "After a Cleave hit, make an additional attack against another adjacent foe"
+    },
+    {
+      "id": 7,
+      "name": "Toughness",
+      "notes": "+1 HP per HD (total +5)"
+    },
+    {
+      "id": 8,
+      "name": "Heal Tattoo",
+      "notes": "2d8+9 healing, twice per day"
+    }
+  ],
+  "classLevels": [
+    {
+      "id": 1,
+      "name": "Fighter",
+      "level": 5,
+      "hitDie": "d10",
+      "bab": 5,
+      "fort": 4,
+      "ref": 1,
+      "will": 1,
+      "skillRanks": 2,
+      "notes": ""
+    }
+  ],
+  "spells": [
+    {
+      "id": 1,
+      "name": "",
+      "level": 0,
+      "school": "",
+      "castingTime": "",
+      "range": "",
+      "save": "",
+      "sr": "",
+      "prepared": false,
+      "used": false,
+      "notes": ""
+    }
+  ]
+}

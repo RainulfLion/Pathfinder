@@ -1,0 +1,5 @@
+node_modules/
+dist/
+*.pdf
+vite.err.log
+vite.log
